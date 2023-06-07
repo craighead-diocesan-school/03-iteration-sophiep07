@@ -14,6 +14,12 @@ function liftOff() {
 }
 
 function make1() {
-  // copy and paste your code here when you get to the Make step
+  let count = 0
+
+  while (count <= 10) {
+    alert(count + '...')
+    count = count + 2
+  }
   
+  alert('Done!')
 }
