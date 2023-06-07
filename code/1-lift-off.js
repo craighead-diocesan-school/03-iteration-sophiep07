@@ -16,10 +16,12 @@ function liftOff() {
 function make1() {
   let count = 0
 
-  while (count <= 10) {
+  while (count < 10) {
     alert(count + '...')
-    count = count + 2
+    count = count + 3
   }
   
-  alert('Done!')
+  let leftOver = count - 11
+  
+  alert('Done, with ' + leftOver + ' left over.')
 }
