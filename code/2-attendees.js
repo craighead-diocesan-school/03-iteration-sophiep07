@@ -12,7 +12,6 @@ function attendees() {
     let attendee = prompt('What is the name of the attendee?')
     attendeeList = attendeeList + attendee + ', ' 
     count = count + 1
-  }
   
   alert(attendeeList) 
 }
