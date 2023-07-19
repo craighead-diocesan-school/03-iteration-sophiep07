@@ -14,6 +14,7 @@ function attendees() {
 
     alert(attendeeList)
   }
+  // asks the user how many atendees there are and their names, then lists them out to the user
 }
 
 function make2() {
@@ -24,7 +25,10 @@ function make2() {
     let numbers = prompt("What are one of the numbers?")
     numbers = Number(numbers)
     total = total + numbers
+    //adds the numbers that the user inputed
     count = count + 1
   }
   alert("The sum of those numbers is: " + total)
+  //asks the user how many numbers they want to add, then tells them to input them one at a time
+  //outputs the sum of the numers
 }
